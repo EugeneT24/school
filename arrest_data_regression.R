@@ -8,7 +8,7 @@ library(readxl)
 library(corrplot)
 
 #load dataset
-data <- read_excel("C:/Users/Dvarim/Desktop/Ivey/Big Data Analytics/Individual assignment 1/arrest_data_assignment1.xlsx", sheet = "final")
+data <- read_excel("C:/Users/Dvarim/Desktop/arrest_data_assignment1.xlsx", sheet = "final")
 
 # convert education to factor
 data$education <- factor(data$education)
